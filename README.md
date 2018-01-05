@@ -1,6 +1,7 @@
 # springcloud
 springcloud搭建HA集群微服
 
+# 新建日期 2018-01-05  by yinhaiquan @email:1083775683@qq.com
 目录结构:
 spring_cloud[root]                                                                                                                         
 ------------spring_cloud_config[配置管理基于git]                                                                                           
@@ -19,3 +20,13 @@ demo中包含的内容【具体事例参考我的有道笔记】
 3. springcloud实现分布式部署以及负载均衡
 4. eureka注册中心安全访问设置
 5. springcloud eureka实现HA高可用demo(注册中心高可用集群)
+
+附加：其中spring_cloud_consumer包含自定义bean校验实现demo
+
+
+# 修改点 yyyy-mm-dd by author
+*******************修改点 - start***********************
+* 1.
+* 2.
+* 3.
+*******************修改点 - end ************************
