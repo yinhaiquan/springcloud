@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_cloud_client" />
+        <module name="spring_cloud_config_client" />
+        <module name="spring_cloud_config_server" />
+        <module name="spring_cloud_config_server2" />
+        <module name="spring_cloud_consumer" />
+        <module name="spring_cloud_hystrix" />
+        <module name="spring_cloud_provider" />
+        <module name="spring_cloud_provider2" />
+        <module name="spring_cloud_server" />
+        <module name="spring_cloud_server2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring_cloud" target="1.7" />
+      <module name="spring_cloud_client" target="1.7" />
+      <module name="spring_cloud_config" target="1.7" />
+      <module name="spring_cloud_config_client" target="1.7" />
+      <module name="spring_cloud_config_server" target="1.7" />
+      <module name="spring_cloud_config_server2" target="1.7" />
+      <module name="spring_cloud_consumer" target="1.7" />
+      <module name="spring_cloud_hystrix" target="1.7" />
+      <module name="spring_cloud_provider" target="1.7" />
+      <module name="spring_cloud_provider2" target="1.7" />
+      <module name="spring_cloud_server" target="1.7" />
+      <module name="spring_cloud_server2" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
