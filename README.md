@@ -2,16 +2,16 @@
 springcloud搭建HA集群微服
 
 目录结构:
-spring_cloud[root]
-------------spring_cloud_config[配置管理基于git]
--------------------------------spring_cloud_config_client[配置客户端]
--------------------------------spring_cloud_config_server[配置服务端]
-------------spring_cloud_consumer[模拟服务消费者]
-------------spring_cloud_hystrix[hystrix熔断器]
-------------spring_cloud_provider[模拟服务提供者]
-------------spring_cloud_provider2[服务提供者，模拟服务分布式HA集群]
-------------spring_cloud_server[eureka注册中心]
-------------spring_cloud_server2[eureka注册中心，模拟HA集群]
+spring_cloud[root]                                                                                                                         
+------------spring_cloud_config[配置管理基于git]                                                                                           
+-------------------------------spring_cloud_config_client[配置客户端]                                                                       
+-------------------------------spring_cloud_config_server[配置服务端]                                                                       
+------------spring_cloud_consumer[模拟服务消费者]                                                                                           
+------------spring_cloud_hystrix[hystrix熔断器]                                                                                             
+------------spring_cloud_provider[模拟服务提供者]                                                                                           
+------------spring_cloud_provider2[服务提供者，模拟服务分布式HA集群]                                                                         
+------------spring_cloud_server[eureka注册中心]                                                                                            
+------------spring_cloud_server2[eureka注册中心，模拟HA集群]                                                                                
 
 demo中包含的内容【具体事例参考我的有道笔记】
 1. springcloud hystrix熔断器实现
