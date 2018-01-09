@@ -14,7 +14,7 @@ spring_cloud[root]
 ------------spring_cloud_provider2[服务提供者，模拟服务分布式HA集群]                                                                       
 ------------spring_cloud_server[eureka注册中心]                                                                                         
 ------------spring_cloud_server2[eureka注册中心，模拟HA集群]                                                                             
-------------spring_cloud_zuul[zuul网关配置管理模块]                                                                                       
+------------spring_cloud_zuul[zuul网关配置管理模块]                                                                                       
 ------------spring_cloud_zuul_eureka[zuul网关配置管理模块基于eureka注册中心]                                                               
 
 demo中包含的内容【具体事例参考我的有道笔记】
