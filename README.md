@@ -13,7 +13,9 @@ spring_cloud[root]
 ------------spring_cloud_provider[模拟服务提供者]                                                                                         
 ------------spring_cloud_provider2[服务提供者，模拟服务分布式HA集群]                                                                       
 ------------spring_cloud_server[eureka注册中心]                                                                                         
-------------spring_cloud_server2[eureka注册中心，模拟HA集群]                                                                                
+------------spring_cloud_server2[eureka注册中心，模拟HA集群]                                                                             
+------------spring_cloud_zuul[zuul网关配置管理模块]                                                                                       
+------------spring_cloud_zuul_eureka[zuul网关配置管理模块基于eureka注册中心]                                                               
 
 demo中包含的内容【具体事例参考我的有道笔记】
 1. springcloud hystrix熔断器实现
@@ -35,4 +37,8 @@ demo中包含的内容【具体事例参考我的有道笔记】
 
 # 修改点 2018-01-09 by yinhaiquan
 ------------------------修改点 --------------------------                                                                                   
-1. spring_cloud_hystrix_turbine 新增hystrix看板集群监控模块        
+1. spring_cloud_hystrix_turbine 新增hystrix看板集群监控模块                                                                               
+2. spring_cloud_zuul 新增zuul网关配置管理模块(简版)                                                                                       
+3. spring_cloud_zuul_eureka 新增zuul网关配置管理模块基于eureka注册中心                                                                     
+
+
