@@ -1,0 +1,15 @@
+#客户端
+server:
+  port: 8078
+spring:
+  application:
+    name: haiquan
+eureka:
+  client:
+    service-url:
+      defaultZone: http://admin:123456@localhost:8761/eureka/,http://admin:123456@localhost:8762/eureka/
+#    register-with-eureka: false
+#    fetch-registry: false
+hystrix:
+  metrics:
+    enabled: true

@@ -76,5 +76,6 @@ org.springframework.cloud.spring-cloud-starter-parent.Camden.SR3可运行
       <module>spring_cloud_provider2</module>
     <module>spring_cloud_config</module>
       <module>spring_cloud_hystrix</module>
+      <module>spring_cloud_hystrix_turbine</module>
   </modules>
 </project>
