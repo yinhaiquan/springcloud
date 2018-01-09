@@ -12,7 +12,9 @@ import org.springframework.cloud.netflix.hystrix.dashboard.EnableHystrixDashboar
 /**
  * @title : 熔断器
  * @describle :
- * <p>
+ *    @EnableFeignClients： 启用feign进行远程调用，feign自带断路器
+ *    @EnableHystrix： 表示启动断路器，断路器依赖于服务注册和发现
+ *    @EnableHystrixDashboard 启用hystrix 看板监控
  * Create By yinhaiquan
  * @date 2018/1/2 16:50 星期二
  */

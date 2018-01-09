@@ -14,8 +14,10 @@ import org.springframework.web.bind.annotation.RestController;
  * @title : 服务提供方
  * @describle :
  *
- * @EnableDiscoveryClient : 启用服务注册与发现
- * @EnableFeignClients： 启用feign进行远程调用
+ * @EnableDiscoveryClient: 启用服务注册与发现(注册中心为zk或者非eureka,一般使用EnableDiscoveryClient注解)
+ * @EnableEurekaClient： 启用服务注册与发现(注册中心为eureka,一般使用EnableEurekaClient注解)
+ * @EnableFeignClients： 启用feign进行远程调用，feign自带断路器
+ *
  * <p>
  * Create By yinhaiquan
  * @date 2017/12/28 11:56 星期四
