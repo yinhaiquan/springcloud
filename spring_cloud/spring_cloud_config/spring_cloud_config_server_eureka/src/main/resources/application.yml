@@ -10,7 +10,7 @@ spring:
           uri: https://github.com/yinhaiquan/spring_cloud_config
           search-paths: config
           username: 1083775683@qq.com
-          password: yhq123456
+          password: ******
       label: master
 eureka:
   client:
