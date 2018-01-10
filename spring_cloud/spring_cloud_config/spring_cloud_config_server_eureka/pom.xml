@@ -1,30 +1,48 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
+        <artifactId>spring_cloud_config</artifactId>
         <groupId>spring.cloud</groupId>
-        <artifactId>spring_cloud</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>spring.cloud</groupId>
-    <artifactId>spring_cloud_config</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
+    <artifactId>spring_cloud_config_server_eureka</artifactId>
+    <packaging>jar</packaging>
 
-    <name>spring_cloud_config</name>
+    <name>spring_cloud_config_server_eureka</name>
     <url>http://maven.apache.org</url>
-
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
+        <!--config配置服务端-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-server</artifactId>
+        </dependency>
+
+        <!--eureka注册中心-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
+        </dependency>
+
     </dependencies>
 
     <build>
+        <finalName>web</finalName>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -35,12 +53,4 @@
             </plugin>
         </plugins>
     </build>
-
-    <modules>
-        <module>spring_cloud_config_server</module>
-        <module>spring_cloud_config_client</module>
-        <module>spring_cloud_config_server_eureka</module>
-        <module>spring_cloud_config_server2_eureka</module>
-        <module>spring_cloud_config_client_eureka</module>
-    </modules>
 </project>
