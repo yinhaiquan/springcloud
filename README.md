@@ -7,6 +7,9 @@ spring_cloud[root]
 ------------spring_cloud_config[配置管理基于git]                                                                                         
 -------------------------------spring_cloud_config_client[配置客户端]                                                                     
 -------------------------------spring_cloud_config_server[配置服务端]                                                                     
+-------------------------------spring_cloud_config_client_eureka[配置客户端基于eureka]                                                   
+-------------------------------spring_cloud_config_server_eureka[配置服务端基于eureka]                                                   
+-------------------------------spring_cloud_config_server2_eureka[配置服务端基于eureka模拟config server HA集群]                           
 ------------spring_cloud_consumer[模拟服务消费者]                                                                                         
 ------------spring_cloud_hystrix[hystrix熔断器]                                                                                         
 ------------spring_cloud_hystrix_turbine[hystrix看板集群监控模块]                                                                         
@@ -41,4 +44,7 @@ demo中包含的内容【具体事例参考我的有道笔记】
 2. spring_cloud_zuul 新增zuul网关配置管理模块(简版)                                                                                       
 3. spring_cloud_zuul_eureka 新增zuul网关配置管理模块基于eureka注册中心                                                                     
 
+# 修改点 2018-01-10 by yinhaiquan
+------------------------修改点 --------------------------                                                                                   
+1. spring_cloud_config 新增 spring_cloud_config_server_eureka模块，基于eureka注册中心配置管理HA集群 
 
