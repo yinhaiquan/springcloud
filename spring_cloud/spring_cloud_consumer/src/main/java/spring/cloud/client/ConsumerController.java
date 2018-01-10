@@ -19,6 +19,7 @@ public class ConsumerController {
 
     @RequestMapping("/fuck")
     public String remoteHello(){
+        System.out.println(1/0);
         return helloRemote.hello();
     }
 
