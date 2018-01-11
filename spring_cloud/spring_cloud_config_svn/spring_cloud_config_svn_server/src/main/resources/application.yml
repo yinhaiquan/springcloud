@@ -1,0 +1,19 @@
+server:
+  port: 8030
+spring:
+  cloud:
+    config:
+      server:
+        svn:
+          uri: https://DESKTOP-V8022SI:8443/svn/springcloudconfig/config-repo
+          username: admin
+          password: admin
+          # 指定查找的目录，多个用逗号隔开
+          search-paths: config
+        # 指定svn分支
+        default-label: trunk
+  profiles:
+    # 指明使用svn服务端
+    active: subversion
+  application:
+    name: spring-cloud-config-svn-server

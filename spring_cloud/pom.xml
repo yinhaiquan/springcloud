@@ -79,5 +79,6 @@ org.springframework.cloud.spring-cloud-starter-parent.Camden.SR3可运行
       <module>spring_cloud_hystrix_turbine</module>
       <module>spring_cloud_zuul</module>
       <module>spring_cloud_zuul_eureka</module>
+      <module>spring_cloud_config_svn</module>
   </modules>
 </project>
