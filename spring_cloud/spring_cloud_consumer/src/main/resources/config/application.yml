@@ -17,3 +17,5 @@ hystrix:
 feign:
   hystrix:
     enabled: true
+# 配置ribbon负载策略,默认轮询策略,不用配置此项
+NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
