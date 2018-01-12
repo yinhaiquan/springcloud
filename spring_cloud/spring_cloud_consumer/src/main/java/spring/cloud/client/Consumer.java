@@ -1,5 +1,7 @@
 package spring.cloud.client;
 
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -38,5 +40,14 @@ public class Consumer {
               new ServletRegistrationBean(dispatcherServlet);
       dispatcherServlet.setThrowExceptionIfNoHandlerFound(true);
       return registrationBean;
+    }
+
+    /**
+     * 配置RandomRule随机策略，默认是轮询策略RoundRobinRule，不用配置此bean
+     * @return
+     */
+    @Bean
+    public IRule ribbonRule(){
+        return new RandomRule();
     }
 }

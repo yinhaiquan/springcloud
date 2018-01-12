@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
- * @title : 
+ * @title : 自定义404错误代码返回内容
  * @describle :
  * <p>
  * Create By yinhaiquan
