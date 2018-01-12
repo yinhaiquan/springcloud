@@ -13,3 +13,7 @@ eureka:
 hystrix:
   metrics:
     enabled: true
+# 开启feign客户端hystrix降级处理,新版本默认是关闭的
+feign:
+  hystrix:
+    enabled: true
